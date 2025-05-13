@@ -229,7 +229,23 @@ a {
 .logo-images {
   margin-top: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.logo-column1 img,
+.logo-column2 img,
+.logo-column3 img {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: 100px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  width: 200px;
+  object-fit: contain;
+}
+.logo-column1 div {
+  padding-bottom: 20px;
 }
 /* user section */
 .user-section {
