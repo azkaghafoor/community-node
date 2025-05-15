@@ -56,26 +56,38 @@ a {
   margin-top: 20px;
   line-height: 1.5rem;
 }
-.hero-input {
-  margin-top: 30px;
-  margin-left: 60px;
-}
-.hero-input input {
-  position: absolute;
+.search-input {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
   width: 500px;
-  border: none;
-  border-radius: 4px;
-  padding: 20px 0px;
+  background-color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  margin-top: 30px;
 }
-.btn-input {
-  position: relative;
-  margin-top: 4px;
-  margin-left: 410px;
-  padding: 16px 20px;
-  background-color: #f84646;
-  color: white;
+.search-input input {
+  font-size: 18px;
+  color: #252525;
   border: none;
-  border-radius: 7px;
+  width: 80%;
+  height: 50px;
+  padding-left: 10px;
+  background-color: transparent;
+}
+.search-input input:focus {
+  outline: none;
+}
+.search-input button {
+  background-color: #f84646;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  height: 50px;
+  width: 20%;
+  margin-right: 10px;
+  border-radius: 8px;
 }
 .menu-icon i {
   color: #ffffff;
